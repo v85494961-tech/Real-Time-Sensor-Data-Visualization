@@ -18,8 +18,12 @@ while True:
 
             ax.clear()
             ax.plot(data_list)
+            ax.set_title("Real-Time Arduino data")
+            ax.set_xlabel("Samples")
+            ax.set_ylabel("Sensor Value")             
             ax.grid(True)
+            
             plt.pause(0.1)
-
+            
     except KeyboardInterrupt:
             break
