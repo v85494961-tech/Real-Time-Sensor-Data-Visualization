@@ -37,6 +37,41 @@ The system monitors ambient light conditions using the LDR module. Arduino proce
 
 ## Screenshots
 ### Live Plot Output
+![Graph Output](graph_output.png)
+
+### Hardware Setup
+![Hardware Setup](hardware_setup.png)
+
+### Arduino code
+![Arduino Code](arduino_code.png)
+
+## Learning Outcomes
+Through this project, i learned:
+- Serial communication between Arduino and python
+- Real-time data visualization
+- sensor interfacing with Arduino
+- embedded systems fundamentals
+- Hardware-software integration workflows
+
+## Future Improvements
+- Add analog light intensity monitoring
+- Store sensor data for analysis
+- Integrate ESP32 for IoT connectivity
+- Add automatic lighting control functionality
+
+## Technologies
+- Embedded Systems
+- Arduino
+- Python
+- Matplotlib
+- Serial Communication
+- IoT Foundations
+
+## Author
+Vincent Panyako
+Electrical and Communication student|Embedded & IoT Enthusiast
+
+  
 
 
 
