@@ -10,20 +10,21 @@ fig, ax=plt.subplots()
 
 
 while True:
-    try:
-        value=arduino.readline().decode().strip()
+    line=arduino.readline().decode().strip()
 
-        if value.isdigit():
-            data_list.append(int(value))
+    if line.isdigit():
+        data.append(int(line))
+        data=data[-50:]
 
-            ax.clear()
-            ax.plot(data_list)
-            ax.set_title("Real-Time Arduino data")
-            ax.set_xlabel("Samples")
-            ax.set_ylabel("Sensor Value")             
-            ax.grid(True)
-            
-            plt.pause(0.1)
-            
-    except KeyboardInterrupt:
-            break
+        ax.clear()
+        ax.plot(data)
+
+        ax.set_title("LDR Digital Monitoring System")
+        ax.set_xlabel("Samples")
+        ax.set_ylabel("Light Detector")
+        ax.grid(True)
+        ax.set_ylim(-0.2,1.2)
+
+        plt.pause(0.1)
+
+    
