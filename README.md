@@ -35,6 +35,9 @@ The system monitors ambient light conditions using the LDR module. Arduino proce
 - 'Arduino_code.ino' - Arduino program for sensor monitoring
 - 'Serial_plotter.py' - Python script for real-time plotting
 
+## Circuit Diagram
+![Circuit Diagram](circuit_diagram.png)
+
 ## Screenshots
 ### Live Plot Output
 ![Graph Output](graph_output.png)
