@@ -42,10 +42,10 @@ The system monitors ambient light conditions using the LDR module. Arduino proce
 ### Live Plot Output
 ![Graph Output](graph_output.png)
 
-### Hardware Setup
+### Circuit Setup
 ![Hardware Setup](hardware_setup.png)
 
-### Arduino code
+### Arduino source code
 ![Arduino Code](arduino_code.png)
 
 ## Learning Outcomes
@@ -55,6 +55,13 @@ Through this project, i learned:
 - sensor interfacing with Arduino
 - embedded systems fundamentals
 - Hardware-software integration workflows
+
+## Challenges Faced
+- I had problems connecting Arduino to Python at first because I selected the wrong COM port.
+- The sensor readings were not stable and kept changing even when light was constant.
+- I faced delays in live plotting because data was coming too fast for Python to handle smoothly.
+- I had to make sure the baud rate in Arduino and Python was the same.
+- Sometimes the serial monitor and Python program could not work at the same time, so I had to close one before running the other.
 
 ## Future Improvements
 - Add analog light intensity monitoring
