@@ -42,10 +42,10 @@ The system monitors ambient light conditions using the LDR module. Arduino proce
 ### Live Plot Output
 ![Graph Output](graph_output.png)
 
-### Circuit Setup
+### Hardware Setup
 ![Hardware Setup](hardware_setup.png)
 
-### Arduino source code
+### Arduino code
 ![Arduino Code](arduino_code.png)
 
 ## Learning Outcomes
@@ -63,6 +63,14 @@ Through this project, i learned:
 - I had to make sure the baud rate in Arduino and Python was the same.
 - Sometimes the serial monitor and Python program could not work at the same time, so I had to close one before running the other.
 
+## Impact / Applications
+- Helps in understanding real-time light sensing using embedded systems.
+- Shows how physical sensor data can be converted into useful digital information.
+- Demonstrates basic principles used in IoT monitoring systems.
+- Can be expanded into smart lighting or automatic lighting control systems.
+- Builds foundation for real-time data acquisition and visualization systems.
+- Useful for learning how hardware and software systems work together.
+
 ## Future Improvements
 - Add analog light intensity monitoring
 - Store sensor data for analysis
@@ -79,7 +87,8 @@ Through this project, i learned:
 
 ## Author
 Vincent Panyako
-Electrical and Communication student|Embedded & IoT Enthusiast
+Electrical and Communication student
+Embedded & IoT Enthusiast
 
   
 
