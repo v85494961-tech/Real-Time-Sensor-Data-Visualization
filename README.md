@@ -1,5 +1,5 @@
 # Real-Time Light Detection System
-A beginner embedded systems project demonstraring real-time light detection and visualization using an Arduino Uno, an LDR sensor module and python.
+A beginner embedded systems project demonstrating real-time light detection and visualization using an Arduino Uno, an LDR sensor module and python.
 The system monitors ambient light conditions using the LDR module. Arduino processes the sensor input and transmits the data through serial communication, while python visualizes the incoming data in real time using matplotlib.
 
 ## Features
@@ -88,7 +88,6 @@ Through this project, i learned:
 ## Author
 Vincent Panyako
 Electrical and Communication student
-Embedded & IoT Enthusiast
 
   
 
