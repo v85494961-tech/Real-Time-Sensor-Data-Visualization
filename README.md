@@ -52,8 +52,8 @@ The system monitors ambient light conditions using the LDR module. Arduino proce
 Through this project, i learned:
 - Serial communication between Arduino and python
 - Real-time data visualization
-- sensor interfacing with Arduino
-- embedded systems fundamentals
+- Sensor interfacing with Arduino
+- Embedded systems fundamentals
 - Hardware-software integration workflows
 
 ## Challenges Faced
@@ -61,7 +61,7 @@ Through this project, i learned:
 - Sensor readings fluctuated even under constant lighting conditions.
 - Experienced delays in live plotting due to high data transmission rates.
 - Ensured the baud rate configuration matched in both Arduino and Python.
-- Learned that the Arduino, Serial Monitor and Python script cannot access the same serial port simultaneously
+- Learned that the Arduino Serial Monitor and Python script cannot access the same serial port simultaneously
 
 ## Impact / Applications
 - Helps in understanding real-time light sensing using embedded systems.
