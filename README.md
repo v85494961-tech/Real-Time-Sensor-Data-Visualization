@@ -57,11 +57,11 @@ Through this project, i learned:
 - Hardware-software integration workflows
 
 ## Challenges Faced
-- I had problems connecting Arduino to Python at first because I selected the wrong COM port.
-- The sensor readings were not stable and kept changing even when light was constant.
-- I faced delays in live plotting because data was coming too fast for Python to handle smoothly.
-- I had to make sure the baud rate in Arduino and Python was the same.
-- Sometimes the serial monitor and Python program could not work at the same time, so I had to close one before running the other.
+- Initially selected the wrong COM port when connecting Arduino to Python.
+- Sensor readings fluctuated even under constant lighting conditions.
+- Experienced delays in live plotting due to high data transmission rates.
+- Ensured the baud rate configuration matched in both Arduino and Python.
+- Learned that the Arduino, Serial Monitor and Python script cannot access the same serial port simultaneously
 
 ## Impact / Applications
 - Helps in understanding real-time light sensing using embedded systems.
@@ -86,8 +86,8 @@ Through this project, i learned:
 - IoT Foundations
 
 ## Author
-Vincent Panyako
-Electrical and Communication student
+- Vincent Panyako
+- Electrical and Communication Engineering student
 
   
 
